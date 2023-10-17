@@ -3,14 +3,25 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
+<<<<<<< HEAD
+=======
+import Seo from "../components/seo"
+>>>>>>> 9233b2581d3925cb2c6a911f3d4dae004c65c1a3
 import * as styles from "../components/index.module.css"
 
 const links = [
   {
+<<<<<<< HEAD
     text: "Convertir unidades",
     url: "page-2",
     description:
       "Convierte unidades del Sistema Internacional y del sistema inglés y aprende sus orígenes.",
+=======
+    text: "Tutorial",
+    url: "https://www.gatsbyjs.com/docs/tutorial",
+    description:
+      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+>>>>>>> 9233b2581d3925cb2c6a911f3d4dae004c65c1a3
   },
   {
     text: "Examples",
@@ -40,7 +51,13 @@ const samplePageLinks = [
     description:
       "A simple example of linking to another page within a Gatsby site",
   },
+<<<<<<< HEAD
 
+=======
+  { text: "TypeScript", url: "using-typescript" },
+  { text: "Server Side Rendering", url: "using-ssr" },
+  { text: "Deferred Static Generation", url: "using-dsg" },
+>>>>>>> 9233b2581d3925cb2c6a911f3d4dae004c65c1a3
 ]
 
 const moreLinks = [
@@ -120,5 +137,9 @@ const IndexPage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
+<<<<<<< HEAD
+=======
+export const Head = () => <Seo title="Home" />
+>>>>>>> 9233b2581d3925cb2c6a911f3d4dae004c65c1a3
 
 export default IndexPage
