@@ -8,7 +8,7 @@ import * as styles from "../components/index.module.css"
 const links = [
   {
     text: "Convertir unidades",
-    url: "page-2",
+    url: "calcunidades",
     description:
       "Convierte unidades del Sistema Internacional y del sistema inglés y aprende sus orígenes.",
   },
@@ -35,7 +35,7 @@ const links = [
 const samplePageLinks = [
   {
     text: "Page 2",
-    url: "page-2",
+    url: "calcunidades",
     badge: false,
     description:
       "A simple example of linking to another page within a Gatsby site",
