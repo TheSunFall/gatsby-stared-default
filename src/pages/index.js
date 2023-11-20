@@ -22,7 +22,6 @@ const samplePageLinks = [
     description:
       "A simple example of linking to another page within a Gatsby site",
   },
-
 ]
 
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
@@ -40,16 +39,19 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby!</b>
+        Calculadora de <b>Unidades</b>
       </h1>
       <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
+        En la actualidad, resulta inconcebible imaginar la vida sin la presencia
+        omnipresente de las unidades de medida. Estas se han convertido en
+        elementos fundamentales en nuestras actividades diarias, ya sea al
+        comprar un kilo de arroz, un litro de leche o medir la longitud de una
+        soga en metros. <br/>
+        El establecimiento de estas medidas tuvo su origen en la
+        "I Conferencia General de Pesas y Medidas" celebrada en Francia en 1960,
+        donde se definieron las unidades fundamentales y derivadas. En este
+        evento histórico se fijaron estándares para la distancia de un metro, la
+        duración de un segundo y el peso de un kilogramo.
         <br />
       </p>
     </div>

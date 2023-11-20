@@ -130,7 +130,7 @@ const cambios = {
     },
     "kilocalorías/hora": {
       abv: "kcal/h",
-      val: 1.163,
+      val: 1/1.163,
       def: "La kilocaloría por hora es una unidad de medida de la tasa de transferencia de energía térmica. Se utiliza comúnmente en sistemas de calefacción y refrigeración para expresar la capacidad de estos sistemas para transferir calor. Una kilocaloría por hora es la cantidad de energía necesaria para elevar la temperatura de 1 kilogramo de agua en 1 grado Celsius durante una hora.",
     },
   },
