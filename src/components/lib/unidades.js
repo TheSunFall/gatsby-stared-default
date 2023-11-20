@@ -76,7 +76,7 @@ const cambios = {
     },
     "kilogramos-fuerza": {
       abv: "kg-f",
-      val: 1/9.81,
+      val: 1 / 9.81,
       def: "El kilogramo fuerza es una unidad de fuerza que se define como la fuerza gravitatoria ejercida sobre un kilogramo de masa. Es utilizada en algunos sistemas de unidades no estándar, y su valor es aproximadamente 9.8 newtons, que es la aceleración debida a la gravedad en la Tierra.",
     },
     "libras-fuerza": {
@@ -103,7 +103,7 @@ const cambios = {
     },
     kilográmetros: {
       abv: "kgm",
-      val: 1/9.81,
+      val: 1 / 9.81,
       def: "El kilográmetro es la unidad de trabajo en el Sistema Técnico de Unidades. Un kilográmetro se define como el trabajo que hace una fuerza de 1 kilogramo-fuerza con un desplazamiento de 1 metro. Por lo tanto, el kilográmetro es igual a 9,81 J",
     },
     ergios: {
@@ -120,17 +120,17 @@ const cambios = {
     },
     "caballos de fuerza": {
       abv: "HP",
-      val: 1/745.7,
+      val: 1 / 745.7,
       def: "El caballo de fuerza es una unidad de potencia utilizada en el sistema imperial y estadounidense. Un caballo de fuerza se define como 550 pies-libras por segundo o aproximadamente 745.7 watts.",
     },
     "caballos de vapor": {
       abv: "CV",
-      val: 1/735.7,
+      val: 1 / 735.7,
       def: "El caballo de vapor es una unidad de potencia utilizada en algunos sistemas de medida europeos. Un caballo de vapor se define como 75 kilogramos metro por segundo o aproximadamente 735.5 watts.",
     },
     "kilocalorías/hora": {
       abv: "kcal/h",
-      val: 1/1.163,
+      val: 1 / 1.163,
       def: "La kilocaloría por hora es una unidad de medida de la tasa de transferencia de energía térmica. Se utiliza comúnmente en sistemas de calefacción y refrigeración para expresar la capacidad de estos sistemas para transferir calor. Una kilocaloría por hora es la cantidad de energía necesaria para elevar la temperatura de 1 kilogramo de agua en 1 grado Celsius durante una hora.",
     },
   },

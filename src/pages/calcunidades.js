@@ -36,7 +36,7 @@ const Form = () => {
       "metros cúbicos",
       "galones",
       "barriles",
-      "onzas líquidas"
+      "onzas líquidas",
     ],
     masa: ["gramos", "kilogramos", "libras", "onzas", "slugs"],
   }
@@ -90,7 +90,15 @@ const Form = () => {
       </select>
       <div className={calcstyles.descUIn}>{cambios[tipo][uIn].def}</div>
       <div className={calcstyles.descUDest}>{cambios[tipo][uDest].def}</div>
-      <div className={calcstyles.conversion}>{valor + cambios[tipo][uIn].abv}={((valor * cambios[tipo][uDest].val) / cambios[tipo][uIn].val).toFixed(4) + cambios[tipo][uDest].abv}</div>
+      <div className={calcstyles.conversion}>
+        1{cambios[tipo][uIn].abv}=
+        {((cambios[tipo][uDest].val) / cambios[tipo][uIn].val).toFixed(
+          7
+        ) + cambios[tipo][uDest].abv}
+      </div>
+      <div className={calcstyles.resultado}>El resultado es {((valor * cambios[tipo][uDest].val) / cambios[tipo][uIn].val).toFixed(
+          4
+        ) + cambios[tipo][uDest].abv}</div>
     </div>
   )
 }
